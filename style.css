@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  transition: 1s;
+}
+h6{
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 2em;
+  background-color: rgba(18, 31, 58, 0.247);
+
+}
+.kana23{
+  border-radius: 5px;
+  background-color: #1a0dce6e;
+  padding: 20px;
+}
+h2 {
+  text-transform: none;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 0,5em;
+  background-color:   #51724ece;
+}
+h4 {
+  text-transform: none;
+  text-align: left;
+ 
+  font-size: 2em;
+ 
+}
+a {
+  text-decoration: none;
+  color: rgba(247, 245, 245, 0.986);
+  transition: 0.3s;
+}
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: #137297;
+  position: relative;
+  width: 100%;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+nav a:hover  {
+  display: inline-block;
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+nav_mecha{
+  overflow: hidden;
+  background-color: #51724ece;
+  position: absolute;
+  width: 100%;
+  opacity: 0.9;
+}
+nav_bat{
+  overflow: hidden;
+  background-color: #432083;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+header li {
+  float: right;
+  font-size: 1.2em; /*La Großeur du Texte*/
+ 
+ 
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 20px 16px;
+}
+#logo {
+  /*font-family: 'Dancing Script', cursive;*/
+  font-weight: bold;
+  float: left;
+  font-size: 2.5em;
+}
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media/haupt.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 650px;
+}
+#imagePrincipale_mecha {
+  padding-top: 60px;
+  background: url(media/mechaaa.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 650px;
+}
+  #imagePrincipale_bat {
+    padding-top: 60px;
+    background: url(media/Battt.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 650px;
+  }
+  
+#deffilage{
+  height: 10px;
+  width: 50%; /*pour definir la longueeur du cadre*/
+  margin: -3px auto;
+  background-color: #16012770;
+  box-shadow: 1px 3px 2px black;
+  margin-top: 250px;
+
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #FFFAE1;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  text-align: center;
+  color:black;
+  font-size: 2em;
+  text-shadow: 1px 3px 2px rgba(51, 52, 139, 0.24);
+}
+p {
+  text-align: center;
+  color:black;
+  font-size: 1.5em;
+  
+}
+/* *************** PRESENTATION ********************** */
+#presentation {
+  background-color: rgba(234, 233, 241, 0.336);
+  padding: 10px 0px 100px 0;
+  
+}
+#galerie {
+  
+  background-color:#e1e4ff;
+  padding: 10px 0px 100px 0;
+  
+}
+
+#texteIntro {
+  padding: 0px 20%;
+}
+#prestations {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 18px 10%;  
+}
+#galerie12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2px 10%;  
+
+}
+.imagesPrestations12 img {
+  border-radius: 10px;
+  box-shadow: 10px 5px 3px 1px rgba(0,0,0,0.7);
+  height: 500px; 
+  
+}
+.imagesPrestations h4 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imagesPrestations img  {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+  height: 200px;
+  
+
+}
+.imagesPrestations img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+  height: 400px;
+  width: 600px;
+
+  
+
+}
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.8s ease-in-out;
+}
+
+.conteneur{
+  max-width: 500px;
+  margin: 45px auto;
+ 
+}
+.d1{
+  width: 576px;
+  height: 432px;
+  margin: 50px auto;
+  box-shadow: 0px 15px 10px -5px #777;
+  background-color: #EDEDED;
+  background-size: contain;
+  animation: fondu 30s ease-in-out infinite both;
+}
+.d2{
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+
+  box-shadow: 0px 15px 10px -5px #777;
+  background-color: #EDEDED;
+  background-size: contain;
+  animation: fondu2 20s ease-in-out infinite both;
+  
+}
+.d3{
+  border-radius: 10px;
+  width: 100%;
+  height: 100px;
+  padding-top: 70%;
+  background-repeat:repeat-x;
+  box-shadow: 0px 15px 10px #777;
+  background-color: #EDEDED;
+  background-size: contain;
+  animation: fondu2 25s ease-in-out infinite both;
+  
+}
+.d1:hover, .d2:hover{
+  animation-play-state: paused;
+}
+@keyframes fondu{
+  0%{background-image: url("media/mecha1.jpg");}
+  100%{background-image: url("media/mecha2.jpg");}
+  89%{background-image: url("media/mecha3.jpg");}
+  80%{background-image: url("media/mecha5.jpg");}
+  50%{background-image: url("media/mecha4.jpg");}
+  90%{background-image: url("media/mecha6.jpg");}
+}
+@keyframes fondu2{
+  0%{background-image: url("media/bat2.jpg");}
+  100%{background-image: url("media/bat2.jpg");}
+  80%{background-image: url("media/bat3.jpg");}
+  100%{background-image: url("media/bat4.jpg");}
+  100%{background-image: url("media/bat5.jpg");}
+/* **************** TOURISME ********************** */
+}
+
+
+#tourisme #chateau, #tourisme #vignoble {
+  float: right;
+}
+#chateau p, #vignoble p {
+  float: left;
+  background-color: cyan;
+  margin-left: -180px;
+  box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+/* ******************* FOOTER ******************** */
+footer {
+  
+  background-color: #137297;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #FFFAE1;
+}
+button:hover {
+  background-color: #e55039;
+  color: #FFFAE1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #FFFAE1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #FFFAE1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 3.3em;
+  color: #FFFAE1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+
+
+#yet1{
+  width: 30%;
+  height: 30%;
+  padding-left: 50%;
+}
+#yet2{
+  
+  width: 30%;
+  height: 30%;
+  padding-left: 10%;
+  
+}
+#yeteg{
+  border-top-color: blue;
+
+position: relative;
+
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px;
+  grid-template-areas:
+    "box-1 box-2 . box-3"
+    "box-4 box-5 . box-6";
+}
+
+/* ici commence la partie de l'animmation du ba*/
+.container01{
+  position: relative;
+  width: 1200px; /* hauteur de chaque carreau*/
+  height: 400px; /*lageuer de cahque carreau*/
+  margin: 30px auto; /* comment il est serrer doít etre serrer dans la 
+  division*/ 
+  ;
+}
+.container01 .box01{
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(400px - 30px);
+  background: rgba(54, 33, 17, 0.562);
+  border-radius: 10px;
+  float: left;
+
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container01 .box01 .icon01{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(87, 47, 139, 0.363);
+  transition: 0.5s;
+  
+}
+.container01 .box01:hover .icon01{
+top: 20px;
+left:calc(50% -40px);
+
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+.container01 .box01 .icon01 .fa{
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 80px;
+transition: 0.5s;
+color:#fff;
+}
+.container01 .box01:hover .icon01 .fa{
+font-size: 40px;
+}
+.container01 .box01 .content01
+{
+position: relative;
+top: 120px;
+height: calc(100% - 100px);
+text-align: center;
+padding: 20px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+
+
+
+/* ###### ici commence ma boite */
+.demo{
+  position: relative;
+  width: 1400px;  /*hauteur de chaque carreau*/
+  height: 800px; /*lageuer de cahque carreau*/
+  margin: 1px auto; /* comment il est serrer doít etre serrer dans la 
+  division*/ 
+  margin-right: 5px;
+  
+  ;
+}
+
+.demo .boite{
+  position: relative;
+  width: 600px;/*calc(650px - 30px);*/
+  height: 80%;/*calc(700px - 10px);*/
+  background:rgba(234, 233, 241, 0.993);
+  border-radius: 10px;
+  float: left;
+
+  margin: 1px;/* l'ecart entre les deux carreaux*/
+  box-sizing: border-box;
+  overflow: hidden;
+}
