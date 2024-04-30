@@ -106,7 +106,7 @@ header li a {
 }
 #imagePrincipale_mecha {
   padding-top: 60px;
-  background: url(batimage1.jpeg) no-repeat fixed;
+  background: url(media/batimage1.jpeg) no-repeat fixed;
   background-size: cover;
    background-position: center;
   height: 650px;
