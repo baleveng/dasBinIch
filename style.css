@@ -383,7 +383,7 @@ position: relative;
 .container01{
   position: relative;
   width: 1000px; /* hauteur de chaque carreau*/
-  height: 400px; /*lageuer de cahque carreau*/
+  height: 100px; /*lageuer de cahque carreau*/
   margin: 30px auto; /* comment il est serrer doít etre serrer dans la 
   division*/ 
   ;
@@ -391,7 +391,7 @@ position: relative;
 .container01 .box01{
   position: relative;
   width: calc(200px - 30px);
-  height: calc(400px - 30px);
+  height: calc(100px - 30px);
   background: rgba(54, 33, 17, 0.562);
   border-radius: 10px;
   float: left;
