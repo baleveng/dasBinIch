@@ -101,12 +101,14 @@ header li a {
   padding-top: 60px;
   background: url(media/haupt.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
+   background-position: center;
   height: 650px;
 }
 #imagePrincipale_mecha {
   padding-top: 60px;
   background: url(batimage1.jpeg) no-repeat fixed;
   background-size: cover;
+   background-position: center;
   height: 650px;
 }
   #imagePrincipale_bat {
